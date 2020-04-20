@@ -69,8 +69,8 @@ class Bot():
 
         #print([(p.x, p.y) for p in self.path_use][0])        
         self._set_goal()
-        #self.vel_update()
-        self.rate.sleep()
+        self.vel_update()
+     
 
 
     def vel_update(self):
